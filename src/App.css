@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .todo-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .todo-input input {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .todo-input button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #00b4d8;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .todo-input button:hover {
+    background-color: #0096c7;
+  }
+  
+  .todo-list {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .todo-list .tasks {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .todo-item span {
+    flex: 1;
+    text-align: left;
+    margin-right: 10px;
+  }
+  
+  .todo-item span.completed {
+    text-decoration: line-through;
+    color: #e63946;
+  }
+  
+  .todo-item input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  
+  .todo-item button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  .todo-item button.edit:hover {
+    color: #ffc107;
+  }
+  
+  .todo-item button.delete:hover {
+    color: #e63946;
+  }
+  
+  .todo-list>button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #e63946;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .todo-list> button:hover {
+    background-color: #d62828;
+  }
+  
